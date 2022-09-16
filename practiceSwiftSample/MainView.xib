@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="practiceSwiftSample" customModuleProvider="target">
             <connections>
+                <outlet property="customView2" destination="WRB-qQ-all" id="0gr-0N-rbZ"/>
+                <outlet property="topView" destination="xvq-5O-hdT" id="RiJ-G2-2zp"/>
                 <outlet property="view" destination="iN0-l3-epB" id="FkT-U3-Pzd"/>
             </connections>
         </placeholder>
@@ -17,8 +19,30 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRB-qQ-all" customClass="CustomView2" customModule="practiceSwiftSample" customModuleProvider="target">
+                    <rect key="frame" x="20" y="678" width="374" height="164"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvq-5O-hdT">
+                    <rect key="frame" x="28" y="59" width="374" height="128"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="4fd-T7-wRJ"/>
+                    </constraints>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WRB-qQ-all" secondAttribute="trailing" constant="20" id="dK5-Ts-b5p"/>
+                <constraint firstItem="xvq-5O-hdT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="ojl-ir-bNh"/>
+                <constraint firstItem="WRB-qQ-all" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="634" id="qVz-o5-QC5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="WRB-qQ-all" secondAttribute="bottom" constant="20" id="qh8-RI-irb"/>
+                <constraint firstItem="WRB-qQ-all" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="rTo-nY-end"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xvq-5O-hdT" secondAttribute="trailing" constant="20" id="wOP-ws-PFy"/>
+                <constraint firstItem="xvq-5O-hdT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="xZ0-Ia-Cfo"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="106"/>
         </view>
     </objects>
