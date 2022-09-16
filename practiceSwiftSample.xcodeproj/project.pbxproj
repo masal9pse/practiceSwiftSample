@@ -11,6 +11,7 @@
 		2811E36028D46C8300F4A799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811E35F28D46C8300F4A799 /* ViewController.swift */; };
 		2811E36528D46C8700F4A799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2811E36428D46C8700F4A799 /* Assets.xcassets */; };
 		2811E36828D46C8700F4A799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2811E36628D46C8700F4A799 /* LaunchScreen.storyboard */; };
+		28D2BE8C28D4C1FC00EBAAFA /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D2BE8B28D4C1FC00EBAAFA /* MainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2811E36428D46C8700F4A799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2811E36728D46C8700F4A799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2811E36928D46C8700F4A799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D2BE8B28D4C1FC00EBAAFA /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2811E35F28D46C8300F4A799 /* ViewController.swift */,
 				2811E36428D46C8700F4A799 /* Assets.xcassets */,
 				2811E36628D46C8700F4A799 /* LaunchScreen.storyboard */,
+				28D2BE8B28D4C1FC00EBAAFA /* MainView.xib */,
 				2811E36928D46C8700F4A799 /* Info.plist */,
 			);
 			path = practiceSwiftSample;
@@ -119,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2BE8C28D4C1FC00EBAAFA /* MainView.xib in Resources */,
 				2811E36828D46C8700F4A799 /* LaunchScreen.storyboard in Resources */,
 				2811E36528D46C8700F4A799 /* Assets.xcassets in Resources */,
 			);
