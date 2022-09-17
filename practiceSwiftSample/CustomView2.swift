@@ -10,6 +10,13 @@ import UIKit
 class CustomView2 : UIView {
     @IBOutlet weak var nameLabel: UILabel!
     
+    @IBAction func tapButton(_ sender: Any) {
+        let myViewController: UIViewController = ViewController()
+        let mySecondViewController: UIViewController = SecondViewController()
+//        self.present(a,animated: )
+        myViewController.present(mySecondViewController, animated: true, completion: nil)
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.commonInit()

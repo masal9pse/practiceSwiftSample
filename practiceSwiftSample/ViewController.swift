@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.blue
         self.title = "demo app"
 //        self.customView2.nameLabel?.text = "Hello world"
-        self.customView2.nameLabel?.text = "Hello world"
+//        self.customView2.nameLabel?.text = "Hello world"
 //        self.customView2.nameLabel.
         self.loadCustomView2()
     }
