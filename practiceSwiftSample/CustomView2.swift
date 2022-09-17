@@ -10,6 +10,8 @@ import UIKit
 class CustomView2 : UIView {
     @IBOutlet weak var nameLabel: UILabel!
     
+//    let modal = MyViewController(nibName: "NIB FILE NAME", bundle: nil)
+//    self.present(modal, animated: true, completion: nil)
     @IBAction func tapButton(_ sender: Any) {
         let myViewController: UIViewController = ViewController()
         let mySecondViewController: UIViewController = SecondViewController()
