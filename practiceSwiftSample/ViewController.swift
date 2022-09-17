@@ -15,23 +15,13 @@ class ViewController: UIViewController {
     
     @IBAction func xibButtonAction(_ sender: Any) {
         let vc = SecondViewController(nibName: "SecondView", bundle: nil)
-//        let vc = SecondViewController()
-//        let mainVC = ViewController(nibName: "MainView",bundle: nil)
-//        let nav = UINavigationController()
-//        window?.rootViewController = nav
-//        window?.makeKeyAndVisible()
-//        self.navigationController?.pushViewController(vc, animated: true)
         self.present(vc,animated: true,completion: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.blue
         self.title = "demo app"
-//        self.customView2.nameLabel?.text = "Hello world"
-//        self.customView2.nameLabel?.text = "Hello world"
-//        self.customView2.nameLabel.
         self.loadCustomView2()
     }
     

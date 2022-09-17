@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="practiceSwiftSample" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="v95-4h-O2A" id="Bcn-NL-LgS"/>
                 <outlet property="view" destination="iN0-l3-epB" id="jIR-xq-z7e"/>
             </connections>
         </placeholder>
@@ -17,8 +18,20 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="v95-4h-O2A">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="v95-4h-O2A" secondAttribute="trailing" id="1ki-at-ogU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="v95-4h-O2A" secondAttribute="bottom" id="IEb-Rc-Maz"/>
+                <constraint firstItem="v95-4h-O2A" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="l9V-9n-tbM"/>
+                <constraint firstItem="v95-4h-O2A" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="puK-Yr-CM6"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="126"/>
         </view>
     </objects>

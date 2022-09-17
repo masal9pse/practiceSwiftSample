@@ -28,10 +28,10 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jro-M2-TVr">
-                    <rect key="frame" x="174" y="361" width="67" height="31"/>
+                    <rect key="frame" x="108" y="361" width="200" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="tableviewに移動するボタン"/>
                     <connections>
                         <action selector="xibButtonAction:" destination="-1" eventType="touchUpInside" id="GZt-a0-vzG"/>
                     </connections>
